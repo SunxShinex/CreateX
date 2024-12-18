@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: auto;
+  padding-left: 345px;
+  padding-right: 330px;
+  align-items: center;
+  display: flex;
+  padding-top: 35px;
+}
+header .container .logo-nav {
+  margin-right: 60px;
+}
+header .container .nav-main {
+  display: flex;
+  gap: 40px;
+  margin-right: 172px;
+}
+header .container .nav-main li {
+  list-style-type: none;
+}
+header .container .nav-main li a {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: rgb(61, 61, 61);
+  text-decoration: none;
+}
+header .container .call-us-div {
+  position: relative;
+  margin-right: 88px;
+}
+header .container .call-us-div:before {
+  position: absolute;
+  background-image: url(../images/phone-logo.svg);
+  content: "";
+  display: block;
+  width: 24px;
+  height: 38px;
+  left: -20px;
+  bottom: 7px;
+}
+header .container .call-us-div p {
+  margin: 0 0 0 20px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: rgb(61, 61, 61);
+}
+header .container .call-us-div h5 {
+  margin: 0 0 0 20px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+header .container .Talk-to-us {
+  position: relative;
+}
+header .container .Talk-to-us:before {
+  position: absolute;
+  background-image: url(../images/Chat-logo.svg);
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  left: -35px;
+  bottom: 7px;
+}
+header .container .Talk-to-us p {
+  margin: 0 0 0 20px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: rgb(61, 61, 61);
+}
+header .container .Talk-to-us h5 {
+  margin: 0 0 0 20px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}/*# sourceMappingURL=style.css.map */

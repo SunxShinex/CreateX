@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    .container{
+        max-width: 1400px;
+        margin: auto;
+        padding-left: 345px;
+        padding-right: 330px;
+        align-items: center;
+        display: flex;
+        padding-top: 35px;
+        .logo-nav{
+            margin-right: 60px;
+        }
+        .nav-main{
+            display: flex;
+            gap: 40px;
+            margin-right: 172px;
+            li{
+                list-style-type: none;
+                a{
+                    font-family: "Roboto", serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 160%;
+                    color: rgb(61, 61, 61);
+                    text-decoration: none;
+                }
+            }
+        }
+        .call-us-div{
+            position: relative;
+            margin-right: 88px;
+            &:before{
+                position: absolute;
+                background-image: url(../images/phone-logo.svg);
+                content: "";
+                display: block;
+                width: 24px;
+                height: 38px;
+                left:-20px;
+                bottom: 7px;
+            }
+            p{
+                margin: 0 0 0 20px;
+                font-family: "Roboto", serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 160%;
+                color: rgb(61, 61, 61);
+            }
+            h5{
+                margin: 0 0 0 20px;
+                font-family: "Roboto", serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+            }
+        }
+        .Talk-to-us{
+            position: relative;
+            &:before{
+                position: absolute;
+                background-image: url(../images/Chat-logo.svg);
+                content: "";
+                display: block;
+                width: 40px;
+                height: 40px;
+                left:-35px;
+                bottom: 7px;
+            }
+            p{
+                margin: 0 0 0 20px;
+                font-family: "Roboto", serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 160%;
+                color: rgb(61, 61, 61);
+            }
+            h5{
+                margin: 0 0 0 20px;
+                font-family: "Roboto", serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+            }
+        }
+    }
+}
